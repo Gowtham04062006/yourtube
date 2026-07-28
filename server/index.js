@@ -108,7 +108,7 @@ io.on("connection", (socket) => {
 const PORT = process.env.PORT || 5001;
 
 mongoose
-  .connect(process.env.DB_URI, {
+  .connect(process.env.DB_URL, {
     dbName: "yourtube",
   })
   .then(() => {
