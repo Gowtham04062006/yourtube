@@ -3,7 +3,7 @@ import crypto from "crypto";
 import useragent from "useragent";
 import geoip from "geoip-lite";
 import users from "../Modals/Auth.js";
-import sendOTP from "../utils/sendOTP.js";
+import sendOTP from "../utils/sendOtp.js";
 
 export const login = async (req, res) => {
   const { email, name, image, deviceId } = req.body;
