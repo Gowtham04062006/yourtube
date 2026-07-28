@@ -1,0 +1,12 @@
+# Frontend
+yourtube/node_modules/
+yourtube/.next/
+yourtube/.env
+
+# Backend
+server/node_modules/
+server/.env
+server/uploads/
+
+# macOS
+.DS_Store
